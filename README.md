@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
 # 🛒 End-to-End E-Commerce Distributed Data Pipeline
 
 An end-to-end distributed data engineering pipeline designed to ingest, clean, model, and aggregate e-commerce data at scale. The pipeline extracts transactional data from **PostgreSQL**, ingests it into **HDFS** via **Apache Sqoop**, processes and constructs a custom **Star Schema** using **PySpark**, builds analytical **Data Marts** in **Apache Hive**, and orchestrates the entire workflow using **Apache Airflow**.
